@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Store</title>
+<meta charset="utf-8" />
+<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+<meta http-equip="X-UA-compatible" content="ie=edge">
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/4a3b1f73a2.js"></script>  
+</head>
+
+<body>
+
+<section id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light">
+  		
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="topnav">
+			<a style="color:black;" class="active" href="index1.html"> <b>Farm2</b>Market </a>
+
+		</div> 
+		
+  		<div class="collapse navbar-collapse" id="navbarNav">
+			
+    		<ul class="navbar-nav ml-auto">
+				<li class="search">
+					<i class="fas fa-search search"></i>
+					<input type="text" id="input" name="searchBox" placeholder="Search for Agri products....." style="width:250px;height:35px;">
+				</li>
+    		 <li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#featured-categories">Home</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="https://foodsafetystandard.in/wp-content/uploads/2020/07/Judicious-use-of-pesticides-in-sustainable-crop-production-PGR-management.pdf">Guide</a>
+      		</li>
+      		
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="https://pib.gov.in/PressReleaseIframePage.aspx?PRID=2002012">Schemes</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="#contact">Contact</a>
+      		</li>
+      		<li class="nav-item">
+        		<a style="color:black;" class="nav-link" href="index.html">Logout</a>
+      		</li>
+      		
+    		</ul>
+  		</div>
+		</nav>
+
+<!--div class="slider"-->
+		<div class="slider">
+		
+			<section>
+					<div id="containerSlider">
+						<div id="slidingImage"> <img src="images/slider/image6.jpg" alt="image1"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image2.jpg" alt="image2"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image3.jpg" alt="image3"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image4.jpg" alt="image4"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image5.jpg" alt="image4"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image1.jpg" alt="image4"style="width:1300px;height:400px;"> </div>
+						<div id="slidingImage"> <img src="images/slider/image7.jpg" alt="image4"style="width:1300px;height:400px;"> </div>
+					</div>
+			</section>
+		
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+			<script>
+				$(document).ready(function()
+				{
+				$('#containerSlider').slick({
+					dots: true,
+					infinite: true,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					autoplay: true,
+					autoplaySpeed: 2000,
+					
+					});
+				});
+			</script>
+				</div>
+
+	
+	<!------Featured Categories----->
+	<section class="featured-categories">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+				<img src="images/all/ferti.jpg">
+				</div>
+				<div class="col-md-3">
+				<img src="images/all/chemi.jpg">
+				</div>
+				<div class="col-md-3">
+				<img src="images/all/oils.jpg">
+				</div>
+				<div class="col-md-3">
+				<img src="images/all/trailer.jpg">
+				</div>
+				
+			
+			</div>
+		
+		</div>
+	</section>
+	
+	
+<section class="new-arrivals">
+<div id="site">
+	<div class="container">
+		<div class="title-box">
+		<h2>New Arrivals</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/252urea3.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+						<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Kisan Urea 46% 45 kg Bag</h3>
+			<div class="product-description" data-name="Kisan Urea 46% 45 kg Bag" data-price="268">
+				
+				<p class="product-price">&#8377; 268</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/1131pearl millet.webp">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>ANNPRASH Premium Pearl Millet (1 kg)</h3>
+			<div class="product-description" data-name="ANNPRASH Premium Pearl Millet (1 kg)" data-price="44">
+				
+				<p class="product-price">&#8377; 44</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/14034shovel1.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Falcon Garden Premium Shovel</h3>
+			<div class="product-description" data-name="Falcon Garden Premium Shovel" data-price="873">
+				
+				<p class="product-price">&#8377; 873</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/1783cucumber sed.webp">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Nutraj Cucumber Seeds 200g</h3>
+			<div class="product-description" data-name="Nutraj Cucumber Seeds 200g" data-price="329">
+				
+				<p class="product-price">&#8377; 329</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>			
+
+		</div>
+
+
+
+	<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/21590transfershovel3.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Agrico Square Shovel with Wooden Handle</h3>
+			<div class="product-description" data-name="Agrico Square Shovel with Wooden Handle" data-price="630">
+				
+				<p class="product-price">&#8377; 630</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/3591bio4.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>NPK 00:52:34(mono potassium phosphate)</h3>
+			<div class="product-description" data-name="NPK 00:52:34 (mono potassium phosphate)" data-price="530">
+				
+				<p class="product-price">&#8377; 530</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/3876barley.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Brown Raw Barley High in Protein</h3>
+			<div class="product-description" data-name="Brown Raw Barley High in Protein" data-price="35">
+				
+				<p class="product-price">&#8377; 35</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/newarive/4129bio2.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Root CareOrganic Plant Fertilizer(3kg)</h3>
+			<div class="product-description" data-name="Root CareOrganic Plant Fertilizer(5kg)" data-price="973">
+				
+				<p class="product-price">&#8377; 973</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>	
+		</div>
+
+
+
+
+
+
+	</div>
+</div>
+</section>
+	
+	
+<section class="on-sale">
+<div id="site">
+	<div class="container">
+		<div class="title-box">
+		<h2>On Sale</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/16039soybean oil.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Soya Shine Soyabean Refined Oil,Rich In Vitamin(1ltr)</h3>
+			<div class="product-description" data-name="Soya Shine Soyabean Refined Oil,Rich In Vitamin(1ltr)" data-price="87">
+				
+				<p class="product-price">&#8377; 87</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/16752cart.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Bike Cargo Trailer 51.2"x28.7"x19.7" Steel Red</h3>
+			
+			<div class="product-description" data-name="Bike Cargo Trailer 51.2"x28.7"x19.7" Steel Red" data-price="5749">
+				
+				<p class="product-price">&#8377;5,749</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/213sugar cane.png">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Futaba First Quality SugarCane Seed  (100 per packet)</h3>
+			<div class="product-description" data-name="Futaba First Quality SugarCane Seed  (100 per packet)" data-price="539">
+				
+				<p class="product-price">&#8377; 539</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/24600Palayam-kodan.png">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>YELAKKI BANANA Super Fresh Organic - 1 Kg</h3>
+			<div class="product-description" data-name="YELAKKI BANANA Super Fresh Organic - 1 Kg" data-price="89">
+				
+				<p class="product-price">&#8377; 89</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>			
+
+		</div>
+
+
+
+	<div class="row">
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/32536Mankurad.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+						<i class="fa fa-shopping-cart"></i>
+						</button>
+					
+					
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Yellow Alphonso Mango Senthoora Mangoes(1Kg)</h3>
+			<div class="product-description" data-name="Yellow Alphonso Mango Senthoora Mangoes(1Kg)" data-price="73">
+				
+				<p class="product-price">&#8377; 73</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+			
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/3535essential oil.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Parag Fragrances Pure Essential Oil (12Pc Launching Offer Pack)</h3>
+			<div class="product-description" data-name="Parag Fragrances Pure Essential Oil (12Pc Launching Offer Pack)" data-price="682">
+				
+				<p class="product-price">&#8377; 682</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/4664sunflower seeds.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Bokashi bran Sunflower Seeds 1Kg Seed (15000 per pck)</h3>
+			<div class="product-description" data-name="Bokashi bran Sunflower Seeds 1Kg Seed (15000 per pck)" data-price="190">
+				
+				<p class="product-price">&#8377; 190</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>
+
+
+
+			<div class="col-md-3">
+			<div class="product-top">
+				<img src="images/onsale/4901fertilizer1.jpg">
+				<div class="overlay-right">
+					<button type="button" class="btn btn-secondary" title="Quick Shop">
+					<i class="fa fa-eye"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+					<i class="fa fa-heart"></i>
+					</button>
+					
+					<button type="button" class="btn btn-secondary" title="Add to Cart">
+					<i class="fa fa-shopping-cart"></i>
+					</button>
+				</div>
+			</div>
+			
+			
+			<div class="product-bottom text-center">
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star"></i>
+			<i class="fa fa-star-half"></i>
+			<h3>Micronutrients Booster for Agriculture,15 Ltr</h3>
+			
+			<div class="product-description" data-name="Micronutrients Booster for Agriculture,15 Ltr" data-price="3453">
+				
+				<p class="product-price">&#8377;3453</p>
+				<form class="add-to-cart" action="cart.html" method="post">
+							<div>
+								<label for="qty-2">Quantity</label>
+								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+							</div>
+							<p><input type="submit" value="Add to cart" class="btn" /></p>
+						</form>
+						
+			</div>
+			</div>
+			</div>	
+		</div>
+
+
+
+	</div>
+</div>
+</section>
+	
+		
+<!------Services Section------->		
+	<section id="services">
+	
+		<div class="container">
+			<h1>Our Services</h1>
+			<div class="row services" >
+				<div class= "col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-phone"></i>
+					</div>
+					<h3> 24/7 Support</h3>
+					<p>on order related queries</p>
+				</div>
+			
+				<div class="col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-shopping-cart"></i>
+					</div>
+					<h3> Return within 30 days</h3>
+					<p>of receiving your order</p>
+				</div>
+			
+				<div class="col-md-4 text-center">
+					<div class="icon">
+					<i class="fa fa-truck"></i>
+					</div>
+					<h3>Get free delivery</h3>
+					<p>on orders above Rs 499 </p>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	
+
+<!------COntact------------>	
+<section id="contact">	
+	
+	<div class="container">
+		<h1>Get In Touch</h1>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="contact-form">
+				<div class="form-group">
+				<input type="text" class="form-control" placeholder="Your Name..">
+				</div>
+				<div class="form-group">
+				<input type="number" class="form-control" placeholder="Phone no.">
+				</div>
+				<div class="form-group">
+				<input type="email" class="form-control" placeholder="Email..">
+				</div>
+				<div class="form-group">
+				<textarea class="form-control" rows="4" placeholder="Message.."></textarea>
+				</div>
+			
+				<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-6 contact-info">
+				<div class="follow"><b><i class="fa fa-map-marker"></i>  </b>Banglore,karnataka</div>
+				<div class="follow"><b><i class="fa fa-mobile"></i>  </b>(+91)7862097585</div>
+				<div class="follow"><b><i class="fa fa-envelope"></i>  </b>supportsabc@gmail.com</div>
+				
+				
+				<div class="follow"><label><b>Get Social </b></label>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
+				<a href="https://myaccount.google.com/"><i class="fa fa-google-plus"></i></a>
+				
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+</section>
+
+</body>
+</html>	

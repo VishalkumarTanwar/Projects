@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Register Yourself</title>
+    <link rel="stylesheet" type="text/css" href="style_register.css"/>
+    </head>
+<body>
+    
+    <div class="register">
+      <form id="register">  
+        
+    <img src="https://coffeelogin.netlify.app/assets/person.jpg" class="avatar" alt="img"/>
+        <h1>Register Yourself</h1>
+        <center><h4  id="result" style="color: red"></h4></center>
+    <label>First Name</label>
+    <input type="text" name="fname" id="fname" placeholder="Enter First Name" required>
+
+<br>
+<div>
+    <label>Last Name</label>
+    <input type="text" name="lname" id="lname" placeholder="Enter Last Name" required>
+</div>
+<br>
+<div>
+    <label>Contact Number</label>
+    <input type="number" name="number" id="number" value="" placeholder="Enter your Contact Number" minlength="10" required>
+</div>
+<br>
+<div>
+    <label>Email</label>
+    <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+</div>
+<br>
+<div>
+    <label>Password</label>
+    <input type="password" name="pass" id="pass" placeholder="Enter your Password" minlength="4" required>
+</div>
+<input type="button" value="Sign Up" id="sub"> 
+
+</form>
+    </div> 
+    
+     <script type="module" src="regist.js"></script> 
+</body>
+
+</html>
+
